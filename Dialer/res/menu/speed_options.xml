@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@android:drawable/ic_menu_delete" android:id="@id/menu_clear" android:title="@string/description_minus_button" android:showAsAction="always" />
+    <item android:icon="@android:drawable/ic_menu_call" android:id="@id/menu_call" android:title="@string/call_other" android:showAsAction="always" />
+    <item android:icon="@android:drawable/ic_menu_send" android:id="@id/menu_text" android:title="@string/menu_sendTextMessage" android:showAsAction="always" />
+</menu>

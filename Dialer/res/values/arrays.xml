@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="letters">
+        <item>\#</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+    <string-array name="factory_test_commands">
+        <item>*937*70#</item>
+    </string-array>
+    <string-array name="set_log_prop_display">
+        <item>\####7878#</item>
+    </string-array>
+    <string-array name="set_qxdm_log_prop">
+        <item>\####8787#</item>
+    </string-array>
+    <string-array name="master_clear_display">
+        <item>*937*762#</item>
+    </string-array>
+    <string-array name="sn_display">
+        <item>*937*764#</item>
+    </string-array>
+    <string-array name="call_type_array">
+        <item>All calls</item>
+        <item>Incoming calls</item>
+        <item>Outgoing calls</item>
+        <item>Missed calls</item>
+    </string-array>
+    <string-array name="card_type_array">
+        <item>All cards</item>
+        <item>Card 1</item>
+        <item>Card 2</item>
+    </string-array>
+</resources>

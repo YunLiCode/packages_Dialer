@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/show_voicemails_only" android:orderInCategory="1" android:title="@string/menu_show_voicemails_only" android:showAsAction="never" />
+    <item android:id="@id/delete_all" android:orderInCategory="1" android:title="@string/recentCalls_deleteAll" android:showAsAction="never" />
+</menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="call_type_array">
+        <item>全部电话</item>
+        <item>已接电话</item>
+        <item>呼出电话</item>
+        <item>未接电话</item>
+    </string-array>
+    <string-array name="card_type_array">
+        <item>全部卡</item>
+        <item>卡一</item>
+        <item>卡二</item>
+    </string-array>
+</resources>

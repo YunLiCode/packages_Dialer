@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/speed_dial_empty_back" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/speed_grid_gap_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="60.0sp" android:textColor="@color/speed_add_icon_color" android:gravity="center" android:id="@id/edit_contact" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/char_plus" />
+        <ImageView android:id="@id/contact_photo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    </FrameLayout>
+    <TextView android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/SpeedDialTitleStyle" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/people_app_theme_color" android:ellipsize="end" android:gravity="center" android:id="@id/name" android:background="@drawable/speed_dial_name_back" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="1.0dip" android:singleLine="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

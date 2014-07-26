@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/speed_dial_horizontal_margin" android:layout_marginRight="@dimen/speed_dial_horizontal_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/secondary_text_color" android:id="@id/help_text" android:padding="@dimen/speed_dial_horizontal_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/set_speed_dial_help" android:layout_alignParentTop="true" />
+    <include android:id="@id/buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/speed_dial_buttons" />
+</RelativeLayout>
